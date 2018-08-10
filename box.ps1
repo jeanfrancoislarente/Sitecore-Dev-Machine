@@ -483,7 +483,7 @@ if (-not (Test-Path env:\BoxStarter:SkipInstallRequiredApps)) {
     Write-BoxstarterMessage "Installing Required apps"
 	
     Install-InternetInformationServices
-    Install-RequiredAppspower
+    Install-RequiredApps
     Install-NpmPackages
     Install-SQLServerExpress
     #Install-VisualStudio
