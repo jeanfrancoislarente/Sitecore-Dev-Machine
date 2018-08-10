@@ -90,7 +90,7 @@ if ($SqlServer2014IsoImage)
     }
 }
 #>
-$installScript = "https://raw.githubusercontent.com/chiragp/Sitecore-Dev-Machine/master/box.ps1"
+$installScript = "https://raw.githubusercontent.com/jeanfrancoislarente/Sitecore-Dev-Machine/master/box.ps1"
 $webLauncherUrl = "http://boxstarter.org/package/url?$installScript"
 $edgeVersion = Get-AppxPackage -Name Microsoft.MicrosoftEdge
 
